@@ -1,5 +1,3 @@
-XSS PoC
-
 ![show me](https://raw.githubusercontent.com/adborden/poc/master/44uwon.jpg)
 
 <script>
