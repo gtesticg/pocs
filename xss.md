@@ -1,9 +1,10 @@
 XSS PoC
 
+![show me](https://raw.githubusercontent.com/adborden/poc/master/44uwon.jpg)
 
 <script>
 function ci() {
-  alert(document.domain);
+  alert('XSS');
 }
 
 setTimeout(ci, 3000);
