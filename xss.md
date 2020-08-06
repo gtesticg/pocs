@@ -1,9 +1,6 @@
-![show me](https://raw.githubusercontent.com/adborden/poc/master/44uwon.jpg)
-
 <script>
-function ci() {
-  alert('XSS');
+function show() {
+  alert(document.domain);
 }
-
-setTimeout(ci, 3000);
+setTimeout(show, 3000);
 </script>
